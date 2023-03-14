@@ -1,8 +1,6 @@
-import {Component, useEffect, useState} from 'react';
+import { useEffect, useState} from 'react';
 
-import logo from './logo.svg';
 import './App.css';
-import {fetchData} from './utils';
 import CardList from './components/card-list/CardList';
 import SearchBox from './components/search-box/SearchBox';
 
